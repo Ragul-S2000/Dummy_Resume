@@ -1,0 +1,251 @@
+@media screen and (min-width:320px) and (min-height:320px) {
+    body:not(.material-symbols-outlined){
+        font-size:small;
+    }
+  
+    .tag{
+        padding-top: 100px;
+        margin-top: -90px;
+        margin-left: 60px;
+        font-size:large;
+    }
+    .yours{
+        font-size: 12px;
+        padding-top: 30px;
+    }
+    li{
+        line-height: 14px;
+        margin-top: -5px;
+    }
+    .title1{
+        padding-top: 30px;
+    }
+    .title1,.title2{
+        text-align: center;
+    }
+   
+    .box{
+        border:4px solid goldenrod;
+        border-radius: 50px;
+        border-style: dotted;
+        height:50px;
+        width:50px;
+        z-index: -1;
+        position:absolute;
+    }
+    .dot{
+        background-color: darkgray;
+        border-radius: 50px;
+        margin:1.5px;
+        height: 40px;
+        width: 40px;
+        position: absolute;
+    }
+    .material-symbols-outlined {
+        margin:7px;
+        font-size: 10px;
+        color:goldenrod;
+      font-variation-settings:
+      'FILL' 1,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    .skillset,.additionalskill{
+        list-style: none;
+    }
+    .grey1{
+        height:80px;
+        width:100%;
+        background-color: darkgray;
+    }
+    .dot1{
+        border:3px solid goldenrod;
+        height:65px;
+        width: 65px;
+        margin-left:47vw;
+        margin-top:3vh;
+        border-radius: 50px;
+        border-style: dotted;
+        position: absolute;
+    }
+    .white{
+        background-color: azure;
+        height:3vh;
+        width: 100%;
+    }
+    .grey2{
+        background-color:darkgray;
+        height:3vh;
+        width:100%
+    }
+    .photo{
+        position: absolute;
+        height: 55px;
+        width: 55px;
+        margin:2px;
+        border-radius: 50px;
+
+    }
+    .nameplate{
+        padding:10px 10px 30px 10px;
+        text-align: center;
+        z-index: 1;
+        height:5.3vh;
+        width:50vw;
+        margin-top:11vh;
+        margin-left:26.5vw;
+        background-color: goldenrod;
+        border-radius: 5px;
+        position: absolute;
+    }
+    #innertext{
+       padding-top: 20px;
+    }
+    .split{
+       margin-top:20px;
+        overflow-wrap: break-word;
+        height:max-content;
+        width:50%;
+        z-index: 1;
+        overflow-x: hidden;
+        position:absolute;
+
+    }
+    .right{
+       height: max-content;
+        margin-right: -30px;
+        right:0;
+    }
+    .left{
+        height:max-content;
+        border-right:3px solid darkgray;
+        margin-left: 10px;
+        left:0;
+    }
+    .accent{
+        display:flex;
+        margin-left: 20px;
+        accent-color: goldenrod;
+        width: 80px;
+    }
+    .detail{
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-height:620px) and (min-width:720px){
+    .accent{
+        margin-left: 200px;
+        width: 150px;
+    }
+    .yours{
+        font-size: x-large;
+    }
+}
+@media only screen and (min-height:500px) and (min-width:1000px){
+    .accent{
+      margin-left:250px;
+      width: 150px;
+    }
+    .date{
+        float:right;
+    }
+  body:not(.material-symbols-outlined){
+    font-size:large;
+  }
+  li{
+    line-height: 24px;
+    margin-top: -5px;
+}
+.dot1{
+    border:3px solid goldenrod;
+    height:65px;
+    width: 65px;
+    margin-left:48vw;
+    margin-top:3vh;
+    border-radius: 50px;
+    border-style: dotted;
+    position: absolute;
+}
+
+}
+@media only screen and (min-width:2000px) and (min-height:1000px){
+  
+    
+    
+    li{
+        line-height: 55px;
+    }
+    .nameplate{
+        padding-top: 20px;
+        margin-top:170px;
+        height:8vh;
+        border-radius: 20px;
+    }
+    .photo{
+        margin-top:35px ;
+        height:10vh;
+        width: 5vw;
+        margin:8px;
+        border-radius: 50%;
+    }
+
+    .dot1{
+        border:5px solid goldenrod;
+        border-style: dotted;
+        height: 12vh;
+        width: 6vw;
+       margin-top: 60px;
+        border-radius:50% ;
+    }
+    .grey1{
+        height: 15vh;
+    }
+    .grey2{
+        height: 5vh;
+    }
+    .white{
+        height: 5vh;
+    }
+    .title1,.title2{
+        font-size: 50px;
+    }
+    .accent{
+        float: right;
+        width: 10vw;
+    }
+    .box{
+       height:100px;
+       width: 100px;
+       position: absolute;
+    }
+    .dot{
+        height:80px ;
+        width:80px ;
+        margin: 6.5px;
+       
+    }
+    .tag{
+        margin-left: 100px;
+        font-size: 50px !important;
+
+    }
+    .material-symbols-outlined {
+         font-size:65px !important;
+         position: absolute;
+        font-variation-settings:
+      'FILL' 1,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    .yours{
+        font-size:30px !important;
+    }
+    body:not(.material-symbols-outlined){
+        font-size: xx-large;
+
+    }
+
+}
